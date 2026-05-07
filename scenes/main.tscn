@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://ko67xgfd22ry"]
+
+[ext_resource type="Script" uid="uid://cavt4qrgh2p3g" path="res://scripts/main.gd" id="1_o5qli"]
+
+[node name="Main" type="Node2D" unique_id=343405315]
+script = ExtResource("1_o5qli")
+
+[node name="Label" type="Label" parent="." unique_id=1991221742]
+offset_left = 503.0
+offset_top = 278.0
+offset_right = 543.0
+offset_bottom = 301.0
+text = "TEST"
+metadata/_edit_use_anchors_ = true
