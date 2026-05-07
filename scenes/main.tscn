@@ -12,3 +12,20 @@ offset_right = 543.0
 offset_bottom = 301.0
 text = "TEST"
 metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Button" parent="." unique_id=573868683]
+offset_left = 508.0
+offset_top = 350.0
+offset_right = 539.0
+offset_bottom = 381.0
+text = "OK"
+
+[node name="Button2" type="Button" parent="." unique_id=367196566]
+offset_left = 910.0
+offset_top = 326.0
+offset_right = 953.0
+offset_bottom = 357.0
+text = "next"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
