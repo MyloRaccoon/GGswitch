@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SwitchesResource" format=3 uid="uid://cbsmfwjplwx5x"]
+
+[ext_resource type="Script" uid="uid://b8bxqdd6wxowr" path="res://scripts/switches_resource.gd" id="1_off1h"]
+
+[resource]
+script = ExtResource("1_off1h")
+switches = {
+"test": false
+}
