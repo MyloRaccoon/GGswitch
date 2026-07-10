@@ -5,5 +5,9 @@
 [resource]
 script = ExtResource("1_off1h")
 switches = {
-"test": false
+"cool": false,
+"cool_switch": true,
+"cooler_switch": false,
+"omg_icant_believe_how_cool_this_is": false,
+"play_ping_on_itch": true
 }

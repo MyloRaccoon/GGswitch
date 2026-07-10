@@ -55,6 +55,15 @@ static func _switch_exists(key: String) -> bool:
 	return key in switches.keys()
 
 
+static func get_current_state_ressource() -> SwitchesResource:
+	var res = SwitchesResource.new()
+	res.switches = switches
+	return res
+
+static func load_state_ressource(resource: SwitchesResource):
+	switches = resource.switches
+
+
 static func get_switch(key: String) -> bool:
 	_init()
 	if not _switch_exists(key):

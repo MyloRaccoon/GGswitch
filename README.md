@@ -11,3 +11,5 @@ Like RPG Maker switches but in a Godot Panel
 - Delete switches with the ui
 - Check if a switch exists with GGswitch.get_switch()
 - Switch a switch with GGswitch.switch()
+- Get the current in-game state of switches as a resource with GGswitch.get_current_state_resource()
+- Load a SwitchResource with GGswitch.load_state_resource() to load switches state
