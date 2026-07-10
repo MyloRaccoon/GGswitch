@@ -1,13 +1,11 @@
 [gd_resource type="Resource" script_class="SwitchesResource" format=3 uid="uid://cbsmfwjplwx5x"]
 
-[ext_resource type="Script" uid="uid://b8bxqdd6wxowr" path="res://scripts/switches_resource.gd" id="1_off1h"]
+[sub_resource type="GDScript" id="GDScript_4c1p3"]
+script/source = "extends Resource
+class_name SwitchesResource
+
+@export var switches := {}
+"
 
 [resource]
-script = ExtResource("1_off1h")
-switches = {
-"cool": false,
-"cool_switch": true,
-"cooler_switch": false,
-"omg_icant_believe_how_cool_this_is": false,
-"play_ping_on_itch": true
-}
+script = SubResource("GDScript_4c1p3")
