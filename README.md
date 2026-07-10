@@ -1,4 +1,7 @@
 # GGswitch
+
+<img width="156" height="156" alt="ggswitch_logo" src="https://github.com/user-attachments/assets/e5eaa2cf-01c6-482d-8599-4651b3b8a284" />
+
 Godot Global switch manager plugin
 Like RPG Maker switches but in a Godot Panel
 
